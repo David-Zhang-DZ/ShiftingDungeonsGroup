@@ -94,6 +94,7 @@ public class SlimeFlying : MonoBehaviour, IEnemy
             return;
         }
 
+        //Used to reset the zig-zag pattern
             if (_resetTime)
         {
             _lastDirectionChange = Time.time;
